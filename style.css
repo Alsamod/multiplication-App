@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+
+  height: 100vh;
+}
+.container-fluid {
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  background-color: yellow;
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  padding: 35px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px white;
+}
+
+.score {
+  text-align: end;
+  color: green;
+  font-family: cursive;
+  font-size: 25px;
+}
+.question {
+  font-family: cursive;
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+#usersInputText {
+  font-family: cursive;
+  font-size: 35px;
+  border: 3px solid green;
+  text-align: center;
+  margin: 2% 0;
+}
+#usersInputText::placeholder {
+  color: green;
+  opacity: 0.2;
+}
+.btn {
+  display: block;
+  width: 100%;
+  font-size: 28px;
+  margin-top: 3%;
+  background-color: green;
+  border: none;
+  font-family: cursive;
+  opacity: 0.9;
+  box-shadow: 0 1px 4px black;
+}
+
+.btn:hover {
+  filter: brightness(0.8);
+  background-color: green;
+}
+
+h3 {
+  font-family: cursive;
+  color: green;
+  font-size: 20px;
+}
